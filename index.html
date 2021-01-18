@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Meal Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meal Finder</h1>
+
+      <div class="wrapper">
+        <div style="display: flex">
+          <input type="text" id="search" placeholder="Search for meals" />
+          <button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <button id="random-btn">
+            <i class="fas fa-random"></i>
+          </button>
+        </div>
+      </div>
+
+      <h1 class="meal-header"></h1>
+      <div class="meals"></div>
+      <div class="random-meal"></div>
+    </div>
+
+    <!-- <div class="fade-in" id="warning">Lorem ipsum dolor sit amet.</div> -->
+
+    <div class="des-wrapper">
+      <div class="des">
+        <a href="javascript:void(0)" class="close"
+          ><i class="fas fa-times"></i
+        ></a>
+        <div class="des-img-wrap">
+          <img class="des-img"
+          src=https://www.themealdb.com/images/media/meals/qysyss1511558054.jpg
+          alt="hmm">
+        </div>
+        <h1 class="des-header">Meat Pie</h1>
+
+        <div class="ingredient">
+          Ingredient:
+          <div class="in-element">Garlic</div>
+          <div class="in-element">Garlic</div>
+          <div class="in-element">Garlic</div>
+          <div class="in-element">Garlic</div>
+          <div class="in-element">Garlic</div>
+          <div class="in-element">Garlic</div>
+        </div>
+        <div class="instruction">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+          eligendi odio temporibus fugit, ipsum facilis, doloremque quis
+          laudantium consequatur ipsam unde delectus sint qui! Ipsum provident
+          in fuga. Quod, omnis!
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

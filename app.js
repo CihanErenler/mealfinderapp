@@ -22,6 +22,7 @@ function process() {
   search.value = "";
   randomMeal.innerHTML = "";
   if (value === "") {
+    mealHeader.innerHTML = "";
     showAlert("Please enter a meal");
   } else {
     getData(value.trim())

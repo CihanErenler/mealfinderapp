@@ -28,7 +28,7 @@ function process() {
     getData(value.trim())
       .then((data) => {
         if (data.meals !== null) {
-          mealHeader.innerHTML = `Resolts for "<span class="lucky">${value}</span>"`;
+          mealHeader.innerHTML = `Results for "<span class="lucky">${value}</span>"`;
           mealList.innerHTML = data.meals
             .map(
               (val) => `
@@ -43,7 +43,7 @@ function process() {
             .join("");
         } else {
           mealList.innerHTML = "";
-          mealHeader.innerHTML = `There is no resolt for "<span class="lucky">${value}</span>"`;
+          mealHeader.innerHTML = `There is no result for "<span class="lucky">${value}</span>"`;
         }
       })
       .catch((err) => {
